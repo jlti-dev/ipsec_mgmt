@@ -1,4 +1,4 @@
-package vici
+package main
 type Load struct {
 	Connection	Connection	`json:"connections,omitempty"`
 	Secret		Secret		`json:"secret,omitempty"`

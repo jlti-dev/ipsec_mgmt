@@ -1,4 +1,4 @@
-package vici
+package main
 
 import(
 	"fmt"

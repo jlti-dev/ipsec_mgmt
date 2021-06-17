@@ -1,4 +1,4 @@
-package vici
+package main
 
 import(
 	"github.com/strongswan/govici/vici"
@@ -32,3 +32,4 @@ func closeViciSession(s *vici.Session) () {
 		log.Printf("[closeViciSession] viciSession is nil, cant close")
 	}
 }
+
